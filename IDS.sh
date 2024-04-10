@@ -57,8 +57,8 @@ function TSHARK_ALERT {
     TSHARK_GREP=$(awk '{if (NR==1) print "host "$1; else print "or host "$1}' top10-2.txt | sort -u | tr '\n' ' ')
 
     # Capturing network traffic to a log.pcap and also alerts.txt to display and analysis
-    tshark &>/dev/null -i "$INTERFACE" -w Log.pcap -t ad "$TSHARK_GREP" or host 192.168.255.167 &
-    tshark &>/dev/null -i "$INTERFACE" -t ad "$TSHARK_GREP" or host 192.168.255.167 >> Alerts.txt &
+    tshark &>/dev/null -i "$INTERFACE" -w Log.pcap -t ad "$TSHARK_GREP"  &
+    tshark &>/dev/null -i "$INTERFACE" -t ad "$TSHARK_GREP"  >> Alerts.txt &
 }
 
 function EXTRACT_FILES() {
