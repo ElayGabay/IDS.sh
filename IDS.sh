@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#stundet:Elay gabay
-#studnet code:s12
 
 source IDS_Config.conf 
 
