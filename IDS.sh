@@ -27,12 +27,6 @@ function INSTALL_APP () {
         sudo apt-get install -y wireshark &>/dev/null
     fi
 	
-	# Downloading Go
-    if ! command -v go &>/dev/null; then 
-        echo -e "${GREEN}[@]Downloading Go....${RESET}"
-        sudo apt install -y golang-go  &>/dev/null
-    fi
-	
     if [[ -z $(sudo find ~ -type f -name vt) ]]; then
         echo -e "${GREEN}[@]Downloading vt-cli....${RESET}"
         wget https://github.com/VirusTotal/vt-cli/releases/download/1.0.0/Linux64.zip -P . &>/dev/null
