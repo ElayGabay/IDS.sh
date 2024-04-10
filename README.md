@@ -4,14 +4,6 @@
 
 This Intrusion Detection System (IDS) script is designed to capture and analyze network traffic using Tshark. It serves as a security monitoring tool to detect suspicious activity and potential threats on a network.
 
-## Requirements
-
-- Linux operating system
-- Bash shell
-- Tshark (Wireshark command-line utility)
-- Go programming language (for certain features)
-- VirusTotal CLI (vt-cli) for file analysis (optional)
-
 ## Usage
 
 1. **Download the Script**: Clone or download the IDS script to your local machine.
