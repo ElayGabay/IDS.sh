@@ -23,7 +23,7 @@ Description
 
 The IDS script performs the following tasks:
 
-Installs necessary dependencies such as Tshark, Go, and VirusTotal CLI.
+Installs necessary dependencies such as Tshark and VirusTotal CLI.
 Creates a main directory named "IDS" for storing captured data and analysis results.
 Downloads an IP list from a specified URL and configures Tshark to capture network traffic based on the IP addresses in the list.
 Captures network traffic to a log file named "Log.pcap" and an alerts file named "Alerts.txt".
