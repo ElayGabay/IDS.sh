@@ -14,7 +14,7 @@ This Intrusion Detection System (IDS) script is designed to capture and analyze 
    ```bash
    chmod +x IDS.sh
 
-4. 3. **Config File**: To ensure proper functionality, it is necessary to correctly configure the parameters in the configuration file. You will need to include the VT API key and URL for the file containing the suspected IPs.```bash
+4. **Config File**: To ensure proper functionality, it is necessary to correctly configure the parameters in the configuration file. You will need to include the VT API key and URL for the file containing the suspected IPs.```bash
 
 
 Run the Script: Execute the script by running the following command:
