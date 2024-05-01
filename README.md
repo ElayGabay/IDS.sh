@@ -11,9 +11,9 @@ This Intrusion Detection System (IDS) script is designed to capture and analyze 
 2. **Navigate to the Directory**: Open a terminal window and navigate to the directory containing the IDS script.
 
 3. **Make the Script Executable**: If necessary, make the script executable by running the following command:
-   ```bash
-   chmod +x IDS.sh
-   ```
+ ```bash
+ chmod +x IDS.sh
+  ```
 4. **Config File**: To ensure proper functionality, it is necessary to correctly configure the parameters in the configuration file. You will need to include the VT API key and URL for the file containing the suspected IPs.```bash
 
 
